@@ -12,6 +12,7 @@ public class GreetingController {
 
 		String name = "Policy Service is Running...";
 		name = name + name.toLowerCase();// now latest coded is this 
+		//this code is from main branch 
 		return name;
 	}
 }
