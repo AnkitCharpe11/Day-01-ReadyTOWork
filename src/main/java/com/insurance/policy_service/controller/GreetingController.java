@@ -11,7 +11,7 @@ public class GreetingController {
 		// String name = null;
 
 		String name = "Policy Service is Running...";
-		name = name + name.toLowerCase();
+		name = name + name.toLowerCase();// now latest coded is this 
 		return name;
 	}
 }
