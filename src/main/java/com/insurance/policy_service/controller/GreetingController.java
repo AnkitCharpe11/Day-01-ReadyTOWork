@@ -8,10 +8,10 @@ public class GreetingController {
 
 	@GetMapping("/heath")
 	public String greetingMessage() {
-		//String name = null;
-		
-		String name = "Policy Service is Running...";
+		// String name = null;
 
+		String name = "Policy Service is Running...";
+		name = name + name.toLowerCase();// now latest coded is this 
 		return name;
 	}
 }
